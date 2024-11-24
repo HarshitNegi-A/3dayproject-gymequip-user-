@@ -1,0 +1,87 @@
+/* MyOrders.module.css */
+.ordersContainer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .ordersList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .orderItem {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .orderItem:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .orderHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .shippingDetails,
+  .itemsList {
+    margin-bottom: 20px;
+  }
+  
+  .shippingDetails h4,
+  .itemsList h4 {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .shippingDetails p,
+  .itemsList p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .itemsList ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .itemsList .item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .itemsList .item p {
+    margin: 5px 0;
+  }
+  
+  .noOrders {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

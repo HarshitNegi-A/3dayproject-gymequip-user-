@@ -1,0 +1,55 @@
+.main{
+    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+    margin-left: 45%;
+    margin-top: 13%;
+    background-color: antiquewhite;
+}
+.main h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: cadetblue;
+}
+.main form label{
+    padding-left: 30px;
+}
+.main form button {
+    margin-top: 80px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 100px;
+    margin-left: 13%;
+    cursor: pointer;
+}
+.main form input{
+    padding: 5px 0px;
+}
+
+.button{
+    font-size: 25px;
+    margin-left: 1146px;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    background-color: rgb(186, 236, 205);
+    border: none;
+    cursor: pointer;
+}
+.forget{
+    margin-top: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 100px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
